@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/haniravi/census/issues"
   },
-  "homepage": "https://github.com/haniravi/census#readme"
+  "homepage": "https://github.com/haniravi/census#readme",
+  "devDependencies": {
+    "commitlint": "^7.6.1",
+    "husky": "^2.3.0"
+  }
 }
