@@ -1,0 +1,25 @@
+{
+  "name": "@census/x",
+  "version": "0.0.0",
+  "description": "A sample package",
+  "author": "Miro <miro.ter.seri@gmail.com>",
+  "homepage": "https://github.com/haniravi/census/tree/master/packages/pkg-x#readme",
+  "license": "MIT",
+  "main": "lib/x.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haniravi/census.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/haniravi/census/issues"
+  }
+}
