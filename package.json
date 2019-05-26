@@ -1,0 +1,23 @@
+{
+  "name": "@census/census",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Track members and their relationships.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haniravi/census.git"
+  },
+  "keywords": [
+    "census"
+  ],
+  "author": "Miro Ter-Seri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haniravi/census/issues"
+  },
+  "homepage": "https://github.com/haniravi/census#readme"
+}
