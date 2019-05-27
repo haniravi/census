@@ -1,15 +1,18 @@
 const typeValues = [
   'star2', // feature
+  'dizzy', // performance improvement
   'bug', // bug fix
-  'dizzy', // improvement
-  'wrench', // refactor
-  'golf', // tests
-  'gear', // config
-  'book', // docs
-  'art', // format/structure
-  'boom', // breaking changes
-  'construction', // work in progress
-  'ribbon' // branding/UI update
+  'ambulance', // hotfix
+  'golf', // test
+  'memo', // documentation
+  'hammer', // refactoring
+  'wrench', // chore
+  'tophat', // style
+  'robot', // ci
+  'construction', // wip
+  'rewind', // revert
+  'bookmark', // version
+  'package' // build
 ]
 
 /**

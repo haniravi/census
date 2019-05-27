@@ -1,4 +1,0 @@
-linters:
-  packages/*/lib/**/*.js:
-    - standard --fix
-    - git add

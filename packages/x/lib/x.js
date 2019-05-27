@@ -1,7 +1,7 @@
 'use strict'
 
-module.exports = pkgX
+module.exports = x
 
-function pkgX () {
+function x () {
   // TODO
 }
