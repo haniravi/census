@@ -1,18 +1,22 @@
-const typeValues = [
-  'star2', // feature
-  'dizzy', // performance improvement
+const types = [
+  'star', // feature
+  'sparkles', // improvement
   'bug', // bug fix
   'ambulance', // hotfix
   'golf', // test
-  'memo', // documentation
-  'hammer', // refactoring
   'wrench', // chore
   'tophat', // style
-  'robot', // ci
+  'memo', // documentation
+  'hammer', // refactoring
+  'gear', // config
+  'bookmark', // version
+  //
   'construction', // wip
   'rewind', // revert
-  'bookmark', // version
-  'package' // build
+  // extra
+  'art', // branding
+  'dolls', // mocks
+  'package' // package
 ]
 
 /**
@@ -43,6 +47,6 @@ module.exports = {
     'subject-full-stop': [2, 'never', '.'],
     'type-empty': [2, 'never'],
     'type-case': [2, 'always', 'lower-case'],
-    'type-enum': [2, 'always', typeValues]
+    'type-enum': [2, 'always', types]
   }
 }
