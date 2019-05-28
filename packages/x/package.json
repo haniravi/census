@@ -1,0 +1,31 @@
+{
+  "name": "@census/x",
+  "version": "0.0.0",
+  "description": "A sample package",
+  "author": "Miro <miro.ter.seri@gmail.com>",
+  "homepage": "https://github.com/haniravi/census/tree/master/packages/pkg-x#readme",
+  "license": "MIT",
+  "main": "lib/x.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haniravi/census.git"
+  },
+  "scripts": {
+    "test": "ava --verbose --color",
+    "test:coverage": "nyc --reporter=text ava --verbose --color",
+    "test:watch": "ava -vw"
+  },
+  "bugs": {
+    "url": "https://github.com/haniravi/census/issues"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "nyc": "^14.1.1"
+  }
+}
