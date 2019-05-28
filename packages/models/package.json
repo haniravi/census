@@ -1,0 +1,24 @@
+{
+  "name": "@census/models",
+  "version": "0.0.0",
+  "description": "Functional models",
+  "author": "Miro <miro.ter.seri@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haniravi/census.git"
+  },
+  "scripts": {
+    "test": "ava --color",
+    "test:coverage": "nyc --reporter=text ava",
+    "test:watch": "ava -vw"
+  },
+  "bugs": {
+    "url": "https://github.com/haniravi/census/issues"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "nyc": "^14.1.1"
+  }
+}
