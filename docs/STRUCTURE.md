@@ -1,9 +1,9 @@
 # Structure Overview
 
+### :package:
+
 ```
-census
-├── lerna.json
-├── package.json
+~
 ├── packages
 │   ├── x
 │   │   ├── lib
@@ -23,18 +23,32 @@ census
 │           ├── helpers
 │           │   └── is-function.js
 │           └── y.spec.js
+```
+
+### :book:
+
+```
+~
 ├── README.md
 └── docs
     └── STRUCTURE.md
-
 ```
 
-Configuration
+### :gear:
 
 ```
-census
+~
+├── lerna.json
+├── package.json
+├── .editorconfig
 ├── .gitattributes
 ├── .gitignore
 ├── .huskyrc.js
-└── .lintstagedrc.yml
+├── .lintstagedrc.json
+├── commitlint.config.js <- config/commitlint
+└── config
+    └── commitlint
+        ├── commitlint.config.js
+        ├── package.json
+        └── README.md
 ```
