@@ -1,0 +1,18 @@
+{
+  "id": "james-howlett",
+  "type": "Person",
+  "attributes": {
+    "givenName": "James",
+    "familyName": "Howlett",
+    "additionalName": "Wolverine",
+    "gender": "male"
+  },
+  "relations": {
+    "affilation": [
+      {
+        "id": "x-men",
+        "type": "Organization"
+      }
+    ]
+  }
+}

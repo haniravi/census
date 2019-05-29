@@ -1,0 +1,24 @@
+{
+  "id": "x-men",
+  "type": "Organization",
+  "attributes": {
+    "name": "X-Men",
+    "additionalType": "PerformingGroup"
+  },
+  "relations": {
+    "members": [
+      {
+        "id": "logan",
+        "type": "Person"
+      },
+      {
+        "id": "scott-summers",
+        "type": "Person"
+      },
+      {
+        "id": "jean-grey",
+        "type": "Person"
+      }
+    ]
+  }
+}

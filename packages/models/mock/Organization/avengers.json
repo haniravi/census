@@ -1,0 +1,24 @@
+{
+  "id": "avengers",
+  "type": "Organization",
+  "attributes": {
+    "name": "Avengers",
+    "additionalType": "PerformingGroup"
+  },
+  "relations": {
+    "members": [
+      {
+        "id": "natalia-romanova",
+        "type": "Person"
+      },
+      {
+        "id": "anthony-stark",
+        "type": "Person"
+      },
+      {
+        "id": "steven-rogers",
+        "type": "Person"
+      }
+    ]
+  }
+}

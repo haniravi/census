@@ -1,0 +1,24 @@
+{
+  "id": "steven-rogers",
+  "type": "Person",
+  "attributes": {
+    "givenName": "Steven",
+    "familyName": "Rogers",
+    "additionalName": "Captain America",
+    "gender": "male"
+  },
+  "relations": {
+    "alumniOf": [
+      {
+        "id": "united-states-army",
+        "type": "Organization"
+      }
+    ],
+    "affilation": [
+      {
+        "id": "avengers",
+        "type": "Organization"
+      }
+    ]
+  }
+}

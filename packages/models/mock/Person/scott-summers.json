@@ -1,0 +1,22 @@
+{
+  "id": "scott-summers",
+  "type": "Person",
+  "attributes": {
+    "givenName": "Scott",
+    "familyName": "Summers",
+    "additionalName": "Cyclops",
+    "gender": "male"
+  },
+  "relations": {
+    "spouse": {
+      "id": "jean-grey",
+      "type": "Person"
+    },
+    "affilation": [
+      {
+        "id": "x-men",
+        "type": "Organization"
+      }
+    ]
+  }
+}

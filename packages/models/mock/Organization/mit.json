@@ -1,0 +1,16 @@
+{
+  "id": "mit",
+  "type": "Organization",
+  "attributes": {
+    "name": "Massachusetts Institute of Technology",
+    "additionalType": "EducationalOrganization"
+  },
+  "relations": {
+    "alumni": [
+      {
+        "id": "anthony-stark",
+        "type": "Person"
+      }
+    ]
+  }
+}

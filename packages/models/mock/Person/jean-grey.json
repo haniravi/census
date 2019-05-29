@@ -1,0 +1,21 @@
+{
+  "id": "jean-grey",
+  "type": "Person",
+  "attributes": {
+    "givenName": "Jean",
+    "familyName": "Grey",
+    "gender": "female"
+  },
+  "relations": {
+    "spouse": {
+      "id": "scott-summers",
+      "type": "Person"
+    },
+    "affilation": [
+      {
+        "id": "x-men",
+        "type": "Organization"
+      }
+    ]
+  }
+}

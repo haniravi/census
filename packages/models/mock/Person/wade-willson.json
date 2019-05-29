@@ -1,0 +1,10 @@
+{
+  "id": "wade-willson",
+  "type": "Person",
+  "attributes": {
+    "givenName": "Wade",
+    "familyName": "Willson",
+    "additionalName": "Deadpool",
+    "gender": "male"
+  }
+}
