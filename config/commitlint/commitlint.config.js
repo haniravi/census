@@ -14,8 +14,8 @@ const types = [
   'construction', // wip
   'rewind', // revert
   // extra
-  'art', // branding
   'dolls', // mocks
+  'candy', // eyecandy
   'package' // package
 ]
 
