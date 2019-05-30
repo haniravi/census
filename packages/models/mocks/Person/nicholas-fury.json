@@ -1,19 +1,15 @@
 {
-  "id": "nicholas-fury",
-  "type": "Person",
+  "reference": {
+    "id": "nicholas-fury",
+    "type": "Person"
+  },
   "attributes": {
     "givenName": "Nicholas",
     "familyName": "Fury",
     "gender": "male"
   },
   "relations": {
-    "alumniOf": [
-      {
-        "id": "united-states-army",
-        "type": "Organization"
-      }
-    ],
-    "affilation": [
+    "isMemberOf": [
       {
         "id": "shield",
         "type": "Organization"

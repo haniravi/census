@@ -1,22 +1,24 @@
 {
-  "id": "avengers",
-  "type": "Organization",
+  "reference": {
+    "id": "x-men",
+    "type": "Organization"
+  },
   "attributes": {
-    "name": "Avengers",
+    "name": "X-Men",
     "additionalType": "PerformingGroup"
   },
   "relations": {
-    "members": [
+    "hasMember": [
       {
-        "id": "natalia-romanova",
+        "id": "james-howlett",
         "type": "Person"
       },
       {
-        "id": "anthony-stark",
+        "id": "scott-summers",
         "type": "Person"
       },
       {
-        "id": "steven-rogers",
+        "id": "jean-grey",
         "type": "Person"
       }
     ]

@@ -1,6 +1,8 @@
 {
-  "id": "james-howlett",
-  "type": "Person",
+  "reference": {
+    "id": "james-howlett",
+    "type": "Person"
+  },
   "attributes": {
     "givenName": "James",
     "familyName": "Howlett",
@@ -8,7 +10,7 @@
     "gender": "male"
   },
   "relations": {
-    "affilation": [
+    "isMemberOf": [
       {
         "id": "x-men",
         "type": "Organization"

@@ -1,6 +1,8 @@
 {
-  "id": "scott-summers",
-  "type": "Person",
+  "reference": {
+    "id": "scott-summers",
+    "type": "Person"
+  },
   "attributes": {
     "givenName": "Scott",
     "familyName": "Summers",
@@ -8,11 +10,7 @@
     "gender": "male"
   },
   "relations": {
-    "spouse": {
-      "id": "jean-grey",
-      "type": "Person"
-    },
-    "affilation": [
+    "isMemberOf": [
       {
         "id": "x-men",
         "type": "Organization"

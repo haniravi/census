@@ -1,6 +1,8 @@
 {
-  "id": "steven-rogers",
-  "type": "Person",
+  "reference": {
+    "id": "steven-rogers",
+    "type": "Person"
+  },
   "attributes": {
     "givenName": "Steven",
     "familyName": "Rogers",
@@ -8,13 +10,7 @@
     "gender": "male"
   },
   "relations": {
-    "alumniOf": [
-      {
-        "id": "united-states-army",
-        "type": "Organization"
-      }
-    ],
-    "affilation": [
+    "isMemberOf": [
       {
         "id": "avengers",
         "type": "Organization"

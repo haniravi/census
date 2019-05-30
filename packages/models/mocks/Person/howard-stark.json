@@ -1,0 +1,19 @@
+{
+  "reference": {
+    "id": "howard-stark",
+    "type": "Person"
+  },
+  "attributes": {
+    "givenName": "Howard",
+    "familyName": "Stark",
+    "gender": "male"
+  },
+  "relations": {
+    "isMemberOf": [
+      {
+        "id": "shield",
+        "type": "Organization"
+      }
+    ]
+  }
+}

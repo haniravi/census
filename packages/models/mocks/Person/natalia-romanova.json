@@ -1,6 +1,8 @@
 {
-  "id": "natalia-romanova",
-  "type": "Person",
+  "reference": {
+    "id": "natalia-romanova",
+    "type": "Person"
+  },
   "attributes": {
     "givenName": "Natalia",
     "familyName": "Romanova",
@@ -8,19 +10,13 @@
     "gender": "female"
   },
   "relations": {
-    "alumniOf": [
+    "isMemberOf": [
       {
-        "id": "kgb",
+        "id": "avengers",
         "type": "Organization"
       },
       {
         "id": "shield",
-        "type": "Organization"
-      }
-    ],
-    "affilation": [
-      {
-        "id": "avengers",
         "type": "Organization"
       }
     ]

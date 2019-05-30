@@ -1,6 +1,8 @@
 {
-  "id": "peter-parker",
-  "type": "Person",
+  "reference": {
+    "id": "peter-parker",
+    "type": "Person"
+  },
   "attributes": {
     "givenName": "Peter",
     "familyName": "Parker",

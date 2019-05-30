@@ -1,6 +1,8 @@
 {
-  "id": "wade-willson",
-  "type": "Person",
+  "reference": {
+    "id": "wade-willson",
+    "type": "Person"
+  },
   "attributes": {
     "givenName": "Wade",
     "familyName": "Willson",

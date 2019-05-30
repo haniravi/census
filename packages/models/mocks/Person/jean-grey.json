@@ -1,17 +1,15 @@
 {
-  "id": "jean-grey",
-  "type": "Person",
+  "reference": {
+    "id": "jean-grey",
+    "type": "Person"
+  },
   "attributes": {
     "givenName": "Jean",
     "familyName": "Grey",
     "gender": "female"
   },
   "relations": {
-    "spouse": {
-      "id": "scott-summers",
-      "type": "Person"
-    },
-    "affilation": [
+    "isMemberOf": [
       {
         "id": "x-men",
         "type": "Organization"

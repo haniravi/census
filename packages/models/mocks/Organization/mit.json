@@ -1,0 +1,10 @@
+{
+  "reference": {
+    "id": "mit",
+    "type": "Organization"
+  },
+  "attributes": {
+    "name": "Massachusetts Institute of Technology",
+    "additionalType": "EducationalOrganization"
+  }
+}

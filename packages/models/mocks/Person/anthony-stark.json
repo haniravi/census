@@ -1,0 +1,24 @@
+{
+  "reference": {
+    "id": "anthony-stark",
+    "type": "Person"
+  },
+  "attributes": {
+    "givenName": "Anthony",
+    "familyName": "Stark",
+    "additionalName": "Iron Man",
+    "gender": "male"
+  },
+  "relations": {
+    "isMemberOf": [
+      {
+        "id": "avengers",
+        "type": "Organization"
+      },
+      {
+        "id": "stark-industries",
+        "type": "Organization"
+      }
+    ]
+  }
+}
