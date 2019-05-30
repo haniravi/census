@@ -1,0 +1,27 @@
+{
+  "$id": "reference.json",
+  "definitions": {
+    "id": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "uuid",
+        "type"
+      ]
+    },
+    "uri": {
+      "type": "string"
+    }
+  },
+  "oneOf": [
+    { "$ref": "#/definitions/id" },
+    { "$ref": "#/definitions/uri" }
+  ]
+}
