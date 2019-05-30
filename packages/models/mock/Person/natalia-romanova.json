@@ -10,7 +10,7 @@
   "relations": {
     "alumniOf": [
       {
-        "id": "red-room-academy",
+        "id": "kgb",
         "type": "Organization"
       },
       {
