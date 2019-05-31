@@ -1,0 +1,19 @@
+{
+  "reference": {
+    "id": "jean-grey",
+    "type": "Person"
+  },
+  "attributes": {
+    "givenName": "Jean",
+    "familyName": "Grey",
+    "gender": "female"
+  },
+  "relations": {
+    "isMemberOf": [
+      {
+        "id": "x-men",
+        "type": "Organization"
+      }
+    ]
+  }
+}

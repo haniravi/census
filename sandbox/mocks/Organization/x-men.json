@@ -1,0 +1,26 @@
+{
+  "reference": {
+    "id": "x-men",
+    "type": "Organization"
+  },
+  "attributes": {
+    "name": "X-Men",
+    "additionalType": "PerformingGroup"
+  },
+  "relations": {
+    "hasMember": [
+      {
+        "id": "james-howlett",
+        "type": "Person"
+      },
+      {
+        "id": "scott-summers",
+        "type": "Person"
+      },
+      {
+        "id": "jean-grey",
+        "type": "Person"
+      }
+    ]
+  }
+}

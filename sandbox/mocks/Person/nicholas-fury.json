@@ -1,0 +1,19 @@
+{
+  "reference": {
+    "id": "nicholas-fury",
+    "type": "Person"
+  },
+  "attributes": {
+    "givenName": "Nicholas",
+    "familyName": "Fury",
+    "gender": "male"
+  },
+  "relations": {
+    "isMemberOf": [
+      {
+        "id": "shield",
+        "type": "Organization"
+      }
+    ]
+  }
+}

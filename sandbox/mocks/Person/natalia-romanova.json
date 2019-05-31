@@ -1,0 +1,24 @@
+{
+  "reference": {
+    "id": "natalia-romanova",
+    "type": "Person"
+  },
+  "attributes": {
+    "givenName": "Natalia",
+    "familyName": "Romanova",
+    "additionalName": "Black Widow",
+    "gender": "female"
+  },
+  "relations": {
+    "isMemberOf": [
+      {
+        "id": "avengers",
+        "type": "Organization"
+      },
+      {
+        "id": "shield",
+        "type": "Organization"
+      }
+    ]
+  }
+}

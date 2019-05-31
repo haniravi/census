@@ -1,0 +1,10 @@
+{
+  "reference": {
+    "id": "kgb",
+    "type": "Organization"
+  },
+  "attributes": {
+    "name": "Komitet Gosudarstvennoy Bezopasnosti",
+    "additionalType": "GovernmentOrganization"
+  }
+}

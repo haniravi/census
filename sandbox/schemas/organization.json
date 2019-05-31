@@ -1,0 +1,40 @@
+{
+  "$id": "Organization",
+  "definitions": {
+    "attributes": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "additionalType": {
+          "type": "string"
+        }
+      }
+    },
+    "relations": {
+      "type": "object",
+      "properties": {
+        "hasMember": {
+          "$ref": "Glossary#/definitions/relationTarget"
+        }
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "reference": {
+      "$ref": "Glossary#/definitions/reference"
+    },
+    "attributes": {
+      "$ref": "#/definitions/attributes"
+    },
+    "relations": {
+      "$ref": "#/definitions/relations"
+    }
+  },
+  "minProperties": 2,
+  "required": [
+    "reference"
+  ]
+}
