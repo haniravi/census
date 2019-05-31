@@ -6,3 +6,10 @@ Functional models reflecting behavior of domain entities.
 
 - Person
 - Organization
+
+### Relations
+
+```
+Person isMemberOf Organization
+Organization hasMember Person
+```
