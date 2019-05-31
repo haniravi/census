@@ -1,15 +1,12 @@
-# models :construction:
+# sandbox :alembic:
 
-Functional models reflecting behavior of domain entities.
+Playground for trying things.
 
-## Models
+Home for experimental features before they arrive to production packages.
 
-- Person
-- Organization
+## Contents
 
-### Relations
+> Subject to change
 
-```
-Person isMemberOf Organization
-Organization hasMember Person
-```
+- Mocks
+- Schemas
