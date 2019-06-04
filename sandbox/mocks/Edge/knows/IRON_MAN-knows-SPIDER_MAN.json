@@ -1,7 +1,7 @@
 {
   "self": {
-    "id": "IRON_MAN-isMemberOf-AVENGERS",
-    "type": "Edge/isMemberOf"
+    "id": "IRON_MAN-knows-SPIDER_MAN",
+    "type": "Edge/knows"
   },
   "nodes": {
     "subject": {
@@ -9,8 +9,8 @@
       "type": "Node/Person"
     },
     "object": {
-      "id": "AVENGERS",
-      "type": "Node/Organization"
+      "id": "SPIDER_MAN",
+      "type": "Node/Person"
     }
   }
 }

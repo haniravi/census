@@ -1,5 +1,5 @@
 module.exports = {
-  $id: 'Node/Organization',
+  $id: '/Node/Organization',
   type: 'object',
   properties: {
     self: { $ref: '#/definitions/reference' },

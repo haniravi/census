@@ -1,11 +1,10 @@
 {
   "self": {
-    "id": "TONY_STARK",
+    "id": "NICK_FURY",
     "type": "Node/Person"
   },
   "attributes": {
-    "name": "Anthony Stark",
-    "additionalName": "Tony",
+    "name": "Nick Fury",
     "gender": "male"
   }
 }

@@ -1,9 +1,9 @@
 {
   "self": {
-    "id": "STARK_INDUSTRIES",
+    "id": "SHIELD",
     "type": "Node/Organization"
   },
   "attributes": {
-    "name": "Stark Industries"
+    "name": "S.H.I.E.L.D."
   }
 }

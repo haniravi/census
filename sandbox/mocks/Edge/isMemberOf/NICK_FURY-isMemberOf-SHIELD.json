@@ -1,15 +1,15 @@
 {
   "self": {
-    "id": "IRON_MAN-isMemberOf-AVENGERS",
+    "id": "NICK_FURY-isMemberOf-SHIELD",
     "type": "Edge/isMemberOf"
   },
   "nodes": {
     "subject": {
-      "id": "IRON_MAN",
+      "id": "NICK_FURY",
       "type": "Node/Person"
     },
     "object": {
-      "id": "AVENGERS",
+      "id": "SHIELD",
       "type": "Node/Organization"
     }
   }

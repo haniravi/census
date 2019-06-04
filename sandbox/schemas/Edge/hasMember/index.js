@@ -1,13 +1,13 @@
 module.exports = {
-  $id: '/Node/Person',
+  $id: '/Edge/hasMember',
   type: 'object',
   properties: {
     self: { $ref: '#/definitions/reference' },
-    attributes: { $ref: '#/definitions/attributes' }
+    nodes: { $ref: '#/definitions/nodes' }
   },
   required: [
     'self',
-    'attributes'
+    'nodes'
   ]
 }
 
