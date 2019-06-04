@@ -1,0 +1,10 @@
+{
+  "reference": {
+    "id": "ironman-isMemberOf-avengers",
+    "type": "Edge/isMemberOf"
+  },
+  "nodes": {
+    "left": "Node/Person/tony-stark",
+    "right": "Node/Organization/avengers"
+  }
+}
