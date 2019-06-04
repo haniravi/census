@@ -1,0 +1,16 @@
+{
+  "self": {
+    "id": "BLACK_WIDOW-isMemberOf-AVENGERS",
+    "type": "Edge/isMemberOf"
+  },
+  "endpoints": {
+    "subject": {
+      "id": "BLACK_WIDOW",
+      "type": "Node/Person"
+    },
+    "target": {
+      "id": "AVENGERS",
+      "type": "Node/Organization"
+    }
+  }
+}

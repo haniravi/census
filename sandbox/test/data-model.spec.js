@@ -1,18 +1,15 @@
 import test from 'ava'
 
-import R from 'ramda'
-
 import Ajv from 'ajv'
 
 import Validator from '../lib/validator'
 
 const schemas = require('../schemas')
-const mockRefs = require('../mocks')
 
-//
-
-const getMockFor = ({ type, id }) =>
-  require(`../mocks/${type}/${id}.json`)
+// mocks
+const IRON_MAN = require('../mocks/Node/Person/IRON_MAN.json')
+const TONY_STARK = require('../mocks/Node/Person/TONY_STARK.json')
+const AVENGERS = require('../mocks/Node/Organization/AVENGERS.json')
 
 //
 
@@ -22,22 +19,39 @@ const ajvOptions = {
 }
 
 const ajv = new Ajv(ajvOptions)
-const validateWith = Validator(ajv)
+const validateAs = $ref => Validator(ajv, { $ref })
 
 // macro
 
-const check = async (t, reference) => {
-  const data = getMockFor(reference)
+test('Node/Person', async t => {
+  const validate = validateAs('Node/Person')
 
-  const validate = data => {
-    const schema = { $ref: reference.type }
-    const input = R.clone(data)
+  await validate(IRON_MAN)
+    .then(body => t.deepEqual(body, IRON_MAN))
 
-    return validateWith(schema, input)
-  }
+  await validate(TONY_STARK)
+    .then(body => t.deepEqual(body, TONY_STARK))
+})
 
-  await validate(data)
-    .then(res => t.deepEqual(res, data))
-}
+test('Node/Organization/AVENGERS', async t => {
+  const validate = validateAs('Node/Organization')
 
-mockRefs.forEach(ref => test(`${ref.id}`, check, ref))
+  await validate(AVENGERS)
+    .then(body => t.deepEqual(body, AVENGERS))
+})
+
+// const check = async (t, reference) => {
+//   const data = getMockFor(reference)
+//
+//   const validate = data => {
+//     const schema = { $ref: reference.type }
+//     const input = R.clone(data)
+//
+//     return validateWith(schema, input)
+//   }
+//
+//   await validate(data)
+//     .then(res => t.deepEqual(res, data))
+// }
+//
+// mockRefs.forEach(ref => test(`${ref.id}`, check, ref))

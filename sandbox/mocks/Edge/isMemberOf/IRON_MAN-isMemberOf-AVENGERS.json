@@ -1,0 +1,16 @@
+{
+  "self": {
+    "id": "IRON_MAN-isMemberOf-AVENGERS",
+    "type": "Edge/isMemberOf"
+  },
+  "endpoints": {
+    "subject": {
+      "id": "IRON_MAN",
+      "type": "Node/Person"
+    },
+    "target": {
+      "id": "AVENGERS",
+      "type": "Node/Organization"
+    }
+  }
+}

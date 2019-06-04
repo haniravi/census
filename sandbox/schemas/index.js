@@ -1,9 +1,7 @@
-const glossary = require('./glossary.json')
-const person = require('./person.json')
-const organization = require('./organization.json')
+const Person = require('./Node/Person')
+const Organization = require('./Node/Organization')
 
 module.exports = [
-  glossary,
-  person,
-  organization
+  Person,
+  Organization
 ]

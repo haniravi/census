@@ -1,0 +1,11 @@
+{
+  "self": {
+    "id": "TONY_STARK",
+    "type": "Node/Person"
+  },
+  "attributes": {
+    "name": "Anthony Stark",
+    "additionalName": "Tony",
+    "gender": "male"
+  }
+}

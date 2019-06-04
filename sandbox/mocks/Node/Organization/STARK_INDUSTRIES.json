@@ -1,0 +1,9 @@
+{
+  "self": {
+    "id": "STARK_INDUSTRIES",
+    "type": "Node/Organization"
+  },
+  "attributes": {
+    "name": "Stark Industries"
+  }
+}
