@@ -1,0 +1,16 @@
+{
+  "self": {
+    "id": "IRON_MAN-knows-SPIDER_MAN",
+    "type": "Edge/knows"
+  },
+  "nodes": {
+    "subject": {
+      "id": "IRON_MAN",
+      "type": "Node/Person"
+    },
+    "object": {
+      "id": "SPIDER_MAN",
+      "type": "Node/Person"
+    }
+  }
+}

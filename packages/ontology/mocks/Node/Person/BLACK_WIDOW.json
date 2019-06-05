@@ -1,0 +1,11 @@
+{
+  "self": {
+    "id": "BLACK_WIDOW",
+    "type": "Node/Person"
+  },
+  "attributes": {
+    "name": "Black Widow",
+    "gender": "female"
+  }
+}
+

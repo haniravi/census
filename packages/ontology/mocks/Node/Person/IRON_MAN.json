@@ -1,0 +1,10 @@
+{
+  "self": {
+    "id": "IRON_MAN",
+    "type": "Node/Person"
+  },
+  "attributes": {
+    "name": "Iron Man",
+    "gender": "male"
+  }
+}
