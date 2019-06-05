@@ -1,19 +1,25 @@
 const types = [
   'star', // feature
   'sparkles', // improvement
-  'bug', // bug fix
-  'ambulance', // hotfix
+  'pill', // hotfix
+  'ambulance', // fix
   'golf', // test
+  'recycle', // refactoring
   'wrench', // chore
   'tophat', // style
   'memo', // documentation
-  'hammer', // refactoring
   'gear', // config
   'bookmark', // version
   //
   'construction', // wip
   'rewind', // revert
   // extra
+  'alembic', // experiments
+  'construction', // wip
+  'book', // breaking changes
+  'robot', // automation
+  'tada', // initial commit
+  'owl', // knowledge organization
   'dolls', // mocks
   'candy', // eyecandy
   'package' // package
