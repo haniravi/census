@@ -5,10 +5,12 @@
   "description": "Track members and their relationships.",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
     "lint": "standard packages/*/lib/**/*.js",
+    "lint:staged": "lint-staged",
     "test": "lerna run test --concurrency 1 --stream",
     "test:coverage": "lerna run test:coverage --concurrency 1 --stream",
-    "postinstall": "lerna bootstrap"
+    "postinstall": "npm run bootstrap"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
   "devDependencies": {
     "@census/config-commitlint": "./config/commitlint",
     "@commitlint/cli": "^7.6.1",
+    "ava": "^2.0.0",
     "husky": "^2.3.0",
     "lerna": "^3.14.1",
     "lint-staged": "^8.1.7",
