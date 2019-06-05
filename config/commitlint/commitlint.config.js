@@ -6,6 +6,7 @@ const types = [
   'golf', // test
   'recycle', // refactoring
   'wrench', // chore
+  'hammer', // hard chore
   'tophat', // style
   'memo', // documentation
   'gear', // config
@@ -14,6 +15,8 @@ const types = [
   'construction', // wip
   'rewind', // revert
   // extra
+  'tv', // demo
+  'unicorn', // fantasy land
   'alembic', // experiments
   'construction', // wip
   'book', // breaking changes
