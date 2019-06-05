@@ -1,0 +1,16 @@
+{
+  "self": {
+    "id": "AVENGERS-hasMember-BLACK_WIDOW",
+    "type": "Edge/hasMember"
+  },
+  "nodes": {
+    "subject": {
+      "id": "AVENGERS",
+      "type": "Node/Organization"
+    },
+    "object": {
+      "id": "BLACK_WIDOW",
+      "type": "Node/Person"
+    }
+  }
+}

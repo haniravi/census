@@ -1,0 +1,17 @@
+{
+  "name": "@census/schemas",
+  "version": "0.0.0",
+  "description": "JSON Schema definitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@census/mocks-marvel": "*",
+    "ajv": "^6.10.0",
+    "ava": "^2.0.0",
+    "ramda": "^0.26.1"
+  }
+}

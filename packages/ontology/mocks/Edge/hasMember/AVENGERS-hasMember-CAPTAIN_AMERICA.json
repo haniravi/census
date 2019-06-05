@@ -1,0 +1,16 @@
+{
+  "self": {
+    "id": "AVENGERS-hasMember-CAPTAIN_AMERICA",
+    "type": "Edge/hasMember"
+  },
+  "nodes": {
+    "subject": {
+      "id": "AVENGERS",
+      "type": "Node/Organization"
+    },
+    "object": {
+      "id": "CAPTAIN_AMERICA",
+      "type": "Node/Person"
+    }
+  }
+}

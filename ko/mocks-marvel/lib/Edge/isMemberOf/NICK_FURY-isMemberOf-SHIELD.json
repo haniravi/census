@@ -1,0 +1,16 @@
+{
+  "self": {
+    "id": "NICK_FURY-isMemberOf-SHIELD",
+    "type": "Edge/isMemberOf"
+  },
+  "nodes": {
+    "subject": {
+      "id": "NICK_FURY",
+      "type": "Node/Person"
+    },
+    "object": {
+      "id": "SHIELD",
+      "type": "Node/Organization"
+    }
+  }
+}

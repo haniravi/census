@@ -1,0 +1,9 @@
+{
+  "self": {
+    "id": "SHIELD",
+    "type": "Node/Organization"
+  },
+  "attributes": {
+    "name": "S.H.I.E.L.D."
+  }
+}
